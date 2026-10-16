@@ -1,0 +1,13 @@
+{
+  "name": "flappy-bird-8bit",
+  "version": "1.0.0",
+  "description": "8-bit style Flappy Bird clone playable in the browser, with three levels of increasing difficulty",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
