@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#182442">
+    <title>Flappy Bird — Pixel Flight</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>PIXEL FLIGHT</h1>
+      <p class="tagline">ONE LITTLE BIRD. THREE BIG SKIES.</p>
+      <div class="game-frame">
+        <canvas id="game" width="160" height="240" tabindex="0"
+          aria-label="Flappy Bird game. Space, Up arrow, click or tap to flap. R restarts. P pauses. M mutes.">
+          Your browser needs canvas support to play.
+        </canvas>
+      </div>
+      <div class="toolbar" aria-label="Game controls">
+        <button id="flap" type="button">FLAP / GO</button>
+        <button id="pause" type="button">PAUSE</button>
+        <button id="restart" type="button">RESTART</button>
+        <button id="mute" type="button" aria-pressed="false">SOUND ON</button>
+      </div>
+      <p class="help">SPACE / ↑ / TAP · FLAP &nbsp; R · RESTART &nbsp; P · PAUSE &nbsp; M · MUTE</p>
+      <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+  </body>
+</html>
